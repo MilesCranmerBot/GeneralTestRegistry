@@ -35,7 +35,7 @@ jobs:
         with:
           version: '1.11'
       - name: Cache artifacts and packages
-        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+        uses: julia-actions/cache@e97f6fc1a6e21c82253c85e269be7340376aa425 # v3.0.1
       - uses: tj-actions/changed-files@7dee1b0c1557f278e5c7dc244927139d78c0e22a #v47.0.4
         id: changed-files
       - run: |
@@ -71,7 +71,7 @@ jobs:
         with:
           version: '1.11'
       - name: Cache artifacts and packages
-        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+        uses: julia-actions/cache@e97f6fc1a6e21c82253c85e269be7340376aa425 # v3.0.1
       - run: |
           import Pkg
           Pkg.instantiate()
